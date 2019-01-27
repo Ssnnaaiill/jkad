@@ -27,14 +27,13 @@
 	margin-top: 30px;
 	color: #000;
 }
-.menuLink h2{
-	color: #0e005e
-}
 .topMenuLi:hover .menuLink {
-	color: #0e005e;
+	color: #473b7b;
 }
 .submenuLink {
-	color: #0e005e;
+	color: #000;
+	border-left: 1px dotted #ddd;
+	border-right: 1px dotted #ddd;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
 	margin-top: -1px;
@@ -55,6 +54,6 @@
 	height: 93px;
 }
 .submenuLink:hover {
-	color: #0e005e;
+	color: #473b7b;
 	background-color: #ddd;
 }
