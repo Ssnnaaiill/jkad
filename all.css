@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+body {
+	font-family: 'Jeju Gothic', serif;
+	color: #000;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+#footer {
+    padding: 10px;
+    height: 80px;
+    font-size: 0.8em;
+	color: #999;
+}

@@ -1,0 +1,39 @@
+#container {
+	background-color: #fff;
+}
+#container .menuline, #container #banner, #container #footer {
+	width: 70%;
+	margin: auto;
+}
+#container #sidebar {
+    width: 10%;
+    margin-left: 15%;
+}
+.menuline {
+	height: 2px;
+	background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+}
+#banner {
+	height: 500px;
+	background-color: #eee;
+}
+#sidebar {
+    width: 20%;
+    height: 500px;
+    background-color: #fff;
+    border-right: 1px solid #999;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+}
+#sidebar h2 {
+    padding-top: 10px;
+}
+#sidebar ul li {
+    padding: 0px 10px 10px 0px;
+}
+#sidebar ul li a i {
+    float: right;
+}
