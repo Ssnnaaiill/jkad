@@ -1,21 +1,24 @@
 #container {
 	background-color: #fff;
 }
-#container .menuline, #container #banner, #container #footer {
-	width: 70%;
-	margin: auto;
-}
 #container #sidebar {
     width: 12%;
     margin-left: 15%;
 }
+#banner {
+    width: 70%;
+    margin: auto;
+}
 .menuline {
+    width: 70%;
+    margin: auto;
 	height: 2px;
 	background-image: linear-gradient(to right, #30d2be 0%, #3584A7 51%, #473b7b 100%);
 }
 #sidebar {
-    height: 500px;
+    height: 100%;
     background-color: #fff;
+    float: left;
     border-right: 1px solid #aaa;
 }
 #sidebar ul {
@@ -24,6 +27,7 @@
     padding: 0px 10px 0px 0px;
 }
 #sidebar h2 {
+    box-align: center;
     padding-top: 10px;
 }
 #sidebar ul li {
@@ -34,4 +38,27 @@
 }
 #sidebar ul li a i {
     float: right;
+}
+#sidebar a:hover {
+    color: #473b7b;
+}
+#content {
+    position: relative;
+    top: -20px;
+    width: 58%;
+    height: 100%;
+    margin: 30px;
+    padding-left: 10px;
+    float: left;
+}
+#content .subtitle {
+    width: 10%;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.examples {
+    width: 100%;
 }
