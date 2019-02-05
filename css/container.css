@@ -1,4 +1,7 @@
 #container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
 	background-color: #fff;
 }
 #container #sidebar {
@@ -47,18 +50,24 @@
     top: -20px;
     width: 58%;
     height: 100%;
-    margin: 30px;
+    margin-top: 3%;
     padding-left: 10px;
     float: left;
 }
-#content .subtitle {
-    width: 10%;
-    height: 500px;
-    margin-top: 10%;
-    margin-left: 5%;
+.subtitle {
+    margin-left: 2%;
+}
+.subtitle a {
     font-weight: bold;
     font-size: 20px;
+    color: #000055;
+}
+.subtitle p {
+    margin-left: 2%;
+    width: 90%;
 }
 .examples {
     width: 100%;
+    margin-top: 2%;
+    text-align: center;
 }

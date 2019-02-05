@@ -13,6 +13,9 @@ a {
     -webkit-transition:color .2s ease;
     transition:color .2s ease;
 }
+p {
+    width: 100%;
+}
 #footer {
     width: 70%;
     margin: auto;
