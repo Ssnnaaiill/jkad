@@ -1,1 +1,10 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+.td_like_th {
+    text-align: center;
+    width: 30%;
+    background-color: #ddd;
+    border-bottom: 1px solid #bbb;
+}
+#map_canvas {
+    margin: auto;
+}

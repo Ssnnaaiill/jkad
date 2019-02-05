@@ -46,6 +46,7 @@
     color: #473b7b;
 }
 #content {
+    text-align: center;
     position: relative;
     top: -20px;
     width: 58%;
@@ -55,6 +56,7 @@
     float: left;
 }
 .subtitle {
+    text-align: left;
     margin-left: 2%;
 }
 .subtitle a {
@@ -69,5 +71,4 @@
 .examples {
     width: 100%;
     margin-top: 2%;
-    text-align: center;
 }

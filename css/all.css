@@ -24,3 +24,17 @@ p {
     font-size: 0.8em;
 	color: #999;
 }
+th, td {
+    height: 25px;
+}
+table {
+    font-size: 14px;
+    margin: auto;
+    width: 70%;
+    color: #222;
+    border-top: 1px solid #000;
+}
+td {
+    text-align: left;
+    border-bottom: 1px solid #bbb;
+}

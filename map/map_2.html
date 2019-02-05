@@ -9,6 +9,23 @@
 		<link rel="stylesheet" type="text/css" href="../css/map.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<title>정금광고</title>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script>
+			function initialize() {
+				var myLatlng = new google.maps.LatLng(37.384499, 127.290909);
+				var mapOptions = {
+					zoom: 17,
+					center: myLatlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+				var marker = new google.maps.Marker({
+					position: myLatlng,
+					map: map,
+					title: "정금광고"
+				});
+			}
+		</script>
 	</head>
 	<body onload="initialize()">
 		<!--상단메뉴-->
@@ -44,27 +61,24 @@
 					<li><a href="map_2.html">대중교통<i class="fas fa-angle-right"></i></a></li>
 				</ul>
 			</div>
-			<div class=
 			<div id="content">
-					<div class="subtitle">
-						<br>
-						<a class="subtitle">대중교통</a>
-						<p>경기도 광주시 초월읍 경충대로 1218 (구주소: 경기도 광주시 대쌍령리 265)</p>
-						<br>
-					</div>
-					<div class="examples">
-					</div>
+				<div class="subtitle">
+					<br>
+					<a class="subtitle">대중교통</a>
+					<br><br>
 				</div>
+				<div id="map_canvas" style="width:500px; height:300px;"></div>
+				<div 
 			</div>
+		</div>
+		<br>
+		<div class="menuline"></div>
+		<div id="footer" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
 			<br>
-			<div class="menuline"></div>
-			<div id="footer" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-				<br>
-				<i class="fas fa-map-marker-alt"></i>&nbsp;경기도 광주시 초월읍 경충대로 1218 (우:12735)<br>
-				<i class="fas fa-phone"></i>&nbsp;764-4741, 798-6500<br>
-				<i class="far fa-envelope"></i>&nbsp;764-4741@hanmail.net<br>
-				<br>Copyright ⓒ JUNGKUM ADVERTISEMENT. All rights reserved.
-			</div>
+			<i class="fas fa-map-marker-alt"></i>&nbsp;경기도 광주시 초월읍 경충대로 1218 (우:12735)<br>
+			<i class="fas fa-phone"></i>&nbsp;764-4741, 798-6500<br>
+			<i class="far fa-envelope"></i>&nbsp;764-4741@hanmail.net<br>
+			<br>Copyright ⓒ JUNGKUM ADVERTISEMENT. All rights reserved.
 		</div>
 	</body>
 </html>
