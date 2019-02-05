@@ -8,26 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="../css/container.css">
 		<link rel="stylesheet" type="text/css" href="../css/map.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<title>정금광고</title>
-		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<script>
-			function initialize() {
-				var myLatlng = new google.maps.LatLng(37.384499, 127.290909);
-				var mapOptions = {
-					zoom: 17,
-					center: myLatlng,
-					mapTypeId: google.maps.MapTypeId.ROADMAP
-				}
-				var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-				var marker = new google.maps.Marker({
-					position: myLatlng,
-					map: map,
-					title: "정금광고"
-				});
-			}
-		</script>
 	</head>
-	<body onload="initialize()">
+	<body>
 		<!--상단메뉴-->
 		<nav id="topMenu">
 			<ul>
@@ -65,10 +49,33 @@
 				<div class="subtitle">
 					<br>
 					<a class="subtitle">대중교통</a>
-					<br><br>
+					<br>
 				</div>
-				<div id="map_canvas" style="width:500px; height:300px;"></div>
-				<div 
+				<div class="how_to_come">
+					<div class="subway_mark"><p class="subway_mark_name">경강선</p></div>
+					<div class="subscribe">
+						<p>
+							<i class="fas fa-bus"></i>&nbsp;
+							<strong>
+								<a class="greenbus">35-1</a>,
+								<a class="greenbus">300</a>, 
+								<a class="bluebus">114</a>,
+								<a class="redbus">500-1</a>,
+								<a class="redbus">500-2</a>,
+								<a class="redbus">1113-1</a>
+							</strong>
+						</p>
+						<p>
+							초월역 1번 출구 출발
+							&nbsp;<i class="fas fa-angle-right"></i>
+							&nbsp;초월읍사무소 하차
+							&nbsp;<i class="fas fa-angle-right"></i>
+							&nbsp;도보 5분
+						</p>
+					</div>
+				</div>
+				<hr class="tx-hr-border-3" style="display:block; border: black 0 none; border-top: black 1px dotted; height: 1px"><p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d101435.3153600032!2d127.13524825020531!3d37.39329423288313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x357b5809134e293f%3A0x88afd0f7bd09e638!2z7ISc7Jq47Yq567OE7IucIOyaqeyCsOq1rCDshJzruZnqs6DroZw5MeuLpOq4uCDtjJDqtZDsl60!3m2!1d37.394798!2d127.11113499999999!4m5!1s0x357cab3691ef1e29%3A0xe42c6e5f8e15770b!2z6rK96riw64-EIOq0keyjvOyLnCDstIjsm5TsnY0g6rK97Lap64yA66GcIDEyMTg!3m2!1d37.384495099999995!2d127.29090989999999!5e0!3m2!1sko!2skr!4v1549379635765" width="80%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<br>
